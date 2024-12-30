@@ -1,0 +1,869 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:rgb(237, 242, 244);
+}
+
+.Navbar{
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavbarChilds{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child{
+    padding: 20px;
+}
+
+/* ----------------------HOME--------------------------------- */
+
+.home{
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px;
+    margin-bottom: 260px;
+    
+}
+
+.logos {
+    height: 50px; 
+    width: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%; 
+}
+
+.logos a {
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.logos a svg {
+    height: 30px; 
+    width: 30px;
+    color: #0077b5; 
+}
+
+.resume{
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 7px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
+    background-color: #36adec;
+}
+
+.resume:hover{
+    background-color: #0077b5;
+}
+
+.KiranImage{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+
+/*--------About-------------------------------*/
+
+.aboutParent{
+    margin: 100px;
+}
+
+.about{
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.aboutHeading{
+    text-align: center;
+}
+
+
+.KiranProfileImage{
+    width: 300px;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.aboutPara{
+    width: 25%;
+}
+
+
+/*--------------*/
+
+
+.skillheading{
+    text-align: center;
+}
+
+.total_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+}
+
+
+.skills{
+    border: 0px solid black;
+    padding: 10px;
+    margin-left: 35px;
+    width: 650px;
+    background-color :#d1dce2; 
+    border-radius: 25px;
+}
+
+
+.skillitem{
+    padding: 10px;
+    background-color:#36adec;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.skillitem2{
+    text-align: center;
+    background-color: rgba(8, 8, 123, 0.492); 
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.skill1{
+    width: 500px;
+    animation: skill1;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+@keyframes skill1{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 450px;
+    }
+}
+
+
+
+
+.skill2{
+    width: 400px;
+    animation: skill2;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+@keyframes skill2{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 400px;
+    }
+}
+
+
+.skill3{
+    width: 550px;
+    animation: skill3;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes skill3{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 550px;
+    }
+}
+
+
+.skill4{
+    width: 500px;
+    animation: skill4;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+@keyframes skill4{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 500px;
+    }
+}
+
+
+.skill5{
+    width: 450px;
+    animation: skill5;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+@keyframes skill5{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 420px;
+    }
+}
+
+
+.skill6{
+    width: 500px;
+    animation: skill6;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+
+@keyframes skill6{
+    from{
+        top: 0px;
+        left: 0px;
+        width: 50px;
+    }
+
+    to{
+        top:0px;
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+.personality{
+    border: 0px solid black;
+    background-color: #36adec;
+    margin-right: 35px;
+    border-radius: 20px;
+    padding: 25px;
+    width: 300px;
+}
+
+.personalityskills{
+    color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.per2{
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgba(0, 0, 255, 0.492);
+}
+
+.pe1{
+    animation: pe1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes pe1{
+    from{
+        top: 0px;
+        width: 50px;
+    }
+    to{
+        top: 0px;
+        width: 190px;
+    }
+}
+
+.pe2{
+    animation: pe2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes pe2{
+    from{
+        top: 0px;
+        width: 50px;
+    }
+    to{
+        top: 0px;
+        width: 170px;
+    }
+}
+
+
+.pe3{
+    animation: pe3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes pe3{
+    from{
+        top: 0px;
+        width: 50px;
+    }
+    to{
+        top: 0px;
+        width: 220px;
+    }
+}
+
+
+.pe4{
+    animation: pe4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes pe4{
+    from{
+        top: 0px;
+        width: 50px;
+    }
+    to{
+        top: 0px;
+        width: 220px;
+    }
+}
+
+
+
+
+
+/*          SAMSUNG GALAXY S8 - Mobile View       */
+
+@media (width>0px) and (width<361px){
+    
+
+    .skills{
+        width: 320px;
+        margin: auto;
+    }
+
+    
+    @keyframes skill1{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 190px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    @keyframes skill2{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 170px;
+        }
+    }
+    
+    
+    
+    
+    
+    @keyframes skill3{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 250px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill4{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 230px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill5{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 180px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill6{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 230px;
+        }
+    }
+
+
+    .personality{
+        width: 300px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+}
+
+
+
+/*        REDMI NOTE 12 PRO, POCO, REAL ME, MOTO G POWER    */
+
+@media (width>362px) and (width<650px){
+
+
+    .skills{
+        width: 320px;
+        margin: auto;
+    }
+
+    
+    @keyframes skill1{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 190px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    @keyframes skill2{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 170px;
+        }
+    }
+    
+    
+    
+    
+    
+    @keyframes skill3{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 250px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill4{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 230px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill5{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 180px;
+        }
+    }
+    
+    
+    
+    
+    @keyframes skill6{
+        from{
+            top: 0px;
+            left: 0px;
+            width: 20px;
+        }
+    
+        to{
+            top:0px;
+            width: 230px;
+        }
+    }
+
+
+    .personality{
+        width: 300px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+}
+
+
+
+/*             IPAD MINI - View           */
+
+@media (width=768px){
+
+    .skills{
+        margin: auto;
+    }
+
+    .personality{
+        margin: auto;
+        margin-top: 25px;
+    }
+
+
+}
+
+/*--------------*/
+
+
+.projectsParent{
+    margin-top: 100px;
+}
+
+.projects{
+    border: 0px solid black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectHeading{
+    text-align: center;
+}
+
+.projectsChild{
+    border: 4px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 10px;
+    width: 400px;
+}
+
+.projectsSubChild{
+    padding: 2px;
+}
+
+.projectThumbnail{
+    width: 100%;
+}
+
+.projectTitleLink{
+    border: 0px solid green;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectsChildSkills{
+    border: 0px solid blue;
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectsSkills{
+    border: 3px solid black;
+    background-color: #0077b5;
+    color: white;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.projectButton{
+    padding: 7px;
+    font-size: medium;
+    border-radius: 7px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.projectDesc{
+    padding: 15px;
+}
+
+
+.contactParent{
+    margin-top: 100px;
+}
+
+.contact{
+    text-align: center;
+} 
+
+.contactHeading{
+    text-align: center;
+}
+
+input{
+    border-radius: 20px;
+    font-size: larger;
+    margin: 10px;
+    background-color: rgb(225, 235, 243);
+    padding: 20px;
+    color: aliceblue;
+    transition: all;
+}
+
+input:hover{
+    transition-duration: 1.5s;
+    transform: scale(1.07);
+}
+
+
+textarea{
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgb(225, 235, 243);
+    color: aliceblue;
+    text-align: center;
+    transition: all;
+}
+
+textarea:hover{
+    transition-duration: 1.5s;
+    transform: scale(1.03);
+}
+    
+
+
+button{
+    color: aliceblue;
+    background-color: black;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: large;
+    margin: 16px;
+    transition-property: background-color;
+}
+
+button:hover{
+    color: rgb(18, 18, 190);
+    transition-duration: 0.5s;
+    transform: scale(1.07);
+    font-size: larger;
+    background-color: aliceblue;
+}
+
+button:active{
+    color: rgb(235, 8, 8);
+}
+
+/*            Samsung Galaxy S8 - Mobile View          */
+
+@media (width>0px) and (width<361px){
+    
+    textarea{
+        width: 250px;
+    }
+}
+
+
+
+/*        REDMI NOTE 12 PRO, POCO, REAL ME, MOTO G POWER      */
+
+@media (width>362px) and (width<650px){
+
+    textarea{
+        width: 250px;
+    }
+
+
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 90px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.footeritem{
+    border: 3px solid aqua;
+}
+
+.footeritem:hover{
+    border: 4px solid aqua;
+    transform: scale(1.2);
+}
