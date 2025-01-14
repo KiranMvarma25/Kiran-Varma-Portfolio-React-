@@ -1,7 +1,7 @@
 function Contact(){
     return (
         
-        <div className="contactParent">
+        <div id="contact" className="contactParent">
 
             <div className="container">
                 <h1 className="contactHeading">Contact</h1>

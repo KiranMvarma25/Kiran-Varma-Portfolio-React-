@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
 
 function App(){
   return (
@@ -12,17 +13,9 @@ function App(){
       <Home />
       <About />
       <Skills />
+      <Certifications />
       <Projects />
       <Contact />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-          
     </>
   )
 }
