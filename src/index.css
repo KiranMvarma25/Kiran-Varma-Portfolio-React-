@@ -642,6 +642,7 @@ body{
     
     
     
+    
     @keyframes skill2{
         from{
             top: 0px;
@@ -1529,4 +1530,27 @@ body.dark-mode {
     height: 30px; 
     width: 30px;
     color: #0077b5; 
+}
+
+/* Update dark mode styles for certifications */
+.dark-mode .certificationItem {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark-mode .certiHeading {
+    color: #ffffff;
+}
+
+.dark-mode .certiContent p {
+    color: #e0e0e0;
+}
+
+.dark-mode .certiButton {
+    background: #36adec;
+    color: #ffffff;
+}
+
+.dark-mode .certiButton:hover {
+    background: #2c3e50;
 }
