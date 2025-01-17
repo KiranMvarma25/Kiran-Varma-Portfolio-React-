@@ -1,3 +1,8 @@
+import { TbBrandLinkedin } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { MdOutlineEmail } from "react-icons/md";
+
 function Contact(){
     return (
         
@@ -7,6 +12,15 @@ function Contact(){
                 <h1 className="contactHeading">Contact</h1>
             </div>
 
+        
+                <div className="logoParent">
+                    <p className="logo"><a href="https://www.linkedin.com/in/kiran-varma-maddhela-1383a2264" target="_blank"><TbBrandLinkedin /></a></p>
+                    <p className="logo"><a href="https://github.com/KiranMvarma25" target="_blank"><FaGithub /></a></p>
+                    <p className="logo"><a href="https://leetcode.com/u/Kiran_Varma-M/" target="_blank"><SiLeetcode /></a></p>
+                    <p className="logo"><a href="mailto:mkiranvarma123@gmail.com" target="_blank"><MdOutlineEmail /></a></p>
+                </div>
+            
+            <br />
             <br />
             <br />
 

@@ -66,6 +66,7 @@ function Home(){
           <br />
           <p>Loves bringing ideas to life through code</p>
           <br />
+          <p><a className="resume" href="Kiran Varma-Resume.pdf" target="_blank">Resume</a></p>
         </div>
 
         <div>

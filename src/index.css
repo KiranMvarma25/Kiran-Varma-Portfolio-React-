@@ -638,6 +638,10 @@ body{
     
     
     
+    
+    
+    
+    
     @keyframes skill2{
         from{
             top: 0px;
@@ -650,6 +654,8 @@ body{
             width: 170px;
         }
     }
+    
+    
     
     
     
@@ -750,6 +756,8 @@ body{
             width: 190px;
         }
     }
+    
+    
     
     
     
@@ -1332,4 +1340,193 @@ footer{
     font-size: 2rem;
     margin-bottom: 30px;
   }
+}
+
+/* Dark Mode Styles */
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .Navbar {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark-mode .child {
+    color: #ffffff;
+}
+
+.dark-mode .aboutHeading,
+.dark-mode .skillheading,
+.dark-mode .certificationHeading,
+.dark-mode .projectHeading,
+.dark-mode .contactHeading {
+    color: #ffffff;
+}
+
+.dark-mode .projectsChild,
+.dark-mode .certificationItem {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark-mode .projectDesc {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode .projectTitleLink {
+    background-color: #3d3d3d;
+    color: #ffffff;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #3d3d3d;
+    color: #ffffff;
+}
+
+.dark-mode .skills {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .aboutPara {
+    color: #e0e0e0;
+}
+
+/* Update scrollbar colors for dark mode */
+.dark-mode ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Update shadow effects for certification cards */
+.certificationItem {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificationItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(54, 173, 236, 0.2);
+}
+
+/* Update shadow effects for home image */
+.KiranImage {
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.KiranImage:hover {
+  transform: perspective(1000px) rotateY(var(--mouse-x)) rotateX(var(--mouse-y));
+  box-shadow: 0 15px 30px rgba(54, 173, 236, 0.2);
+}
+
+/* Update shadow effects for about image */
+.KiranProfileImage {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.KiranProfileImage:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(54, 173, 236, 0.2);
+}
+
+/* Update dark mode shadows */
+.dark-mode .certificationItem,
+.dark-mode .KiranImage,
+.dark-mode .KiranProfileImage {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .certificationItem:hover,
+.dark-mode .KiranImage:hover,
+.dark-mode .KiranProfileImage:hover {
+  box-shadow: 0 15px 30px rgba(54, 173, 236, 0.3);
+}
+
+/* Light mode icon styles */
+.dark-mode-toggle svg {
+    color: #36adec;
+    font-size: 1.5rem;
+}
+
+.dark-mode .dark-mode-toggle svg {
+    color: #ffffff;
+}
+
+.dark-mode-toggle:hover svg {
+    color: #2c3e50;
+}
+
+.dark-mode .dark-mode-toggle:hover svg {
+    color: #36adec;
+}
+
+
+.logoParent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px; 
+    width: 50px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    border-radius: 50%; 
+}
+
+.logo a {
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.logo a svg {
+    height: 30px; 
+    width: 30px;
+    color: #0077b5; 
 }
